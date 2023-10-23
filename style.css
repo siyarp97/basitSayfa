@@ -1,0 +1,137 @@
+*{
+margin: 0;
+padding: 0;
+background-color: rgb(61, 24, 24);
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.logo img{
+width: 150px;
+}
+
+.list{
+display: flex;
+list-style-type: none;
+}
+
+.list a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.baslik{
+text-align: center;
+font-size: 48px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+letter-spacing: 10px;
+text-shadow: 5px 3px 2px rgb(177, 103, 78);
+color:bisque;
+}
+
+h2{
+margin-top: 30px;
+letter-spacing: 5px;
+margin-left: 15px;
+color: seashell;
+}
+
+.sirasiz-list{
+margin-top: 20px;
+display: flex;
+list-style-type: none;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.sirasiz-list img{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgb(191, 83, 83);
+}
+
+h3{
+text-align: center;
+letter-spacing: 2px;
+margin-top: 10px;
+color: seashell;
+}
+
+li{
+    margin: 0px 0px 0px 50px;
+}
+
+.img-kapak{
+    width: 100%;
+    height: 500px;
+    object-fit:fill ;
+    margin-top: 20px ;
+    box-shadow: 0px 0px 10px rgb(191, 83, 83);
+}
+
+.film-yorumu{
+    margin: 30px 20px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    border: 2px solid rgb(191, 83, 83);
+    border-radius: 20px;
+    padding: 25px;
+    background-color: rgb(191, 83, 83);
+    color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(191, 83, 83);
+}
+
+iframe{
+    width: 800px;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: 2px solid rgb(108, 46, 46);
+    background-color: rgb(191, 83, 83);
+    color: antiquewhite;
+    box-shadow: 0px 0px 30px rgb(191, 83, 83);
+}
+
+.fragman{
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+}
+
+.izle{
+    width: 200px;
+    margin: 50px 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+    border: 2px solid rgb(240, 107, 107);
+    color:bisque;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(190, 83, 83);
+    box-shadow: 0px 0px 30px rgb(191, 83, 83);
+}
+
